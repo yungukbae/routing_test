@@ -1,7 +1,8 @@
-export default function Home() {
+const Page = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>This Page is `/` Page</h1>
+      <h1>This Page is `/list` Page</h1>
     </main>
   );
-}
+};
+export default Page;
